@@ -15,7 +15,7 @@ public class EmployeeWageComputationUsingClassMethod {
 		for (int day = 1, totalWorkingHrs = 0; day <= MAX_WORKING_DAYS
 				&& totalWorkingHrs < MAX_WORKING_HRS; day++, totalWorkingHrs += workingHrs) {
 
-			int empType = (int) (Math.random() * 100) % 3;
+			int empType = (int) (Math.random() * 10) % 3;
 			switch (empType) {
 			case FULL_TIME:
 				workingHrs = 8;
